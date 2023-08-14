@@ -13,7 +13,7 @@
 			const urlParams =new URLSearchParams(window.location.search)
 			const product = urlParams.get('playstore')
 			console.log(product);
-			if (product=null) {
+			if (product==null) {
 				window.location.href = "https://play.google.com/store/apps/details?id=rugved.Programmer_Quotes";
 			}
 		}
