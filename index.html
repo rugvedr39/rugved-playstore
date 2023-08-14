@@ -10,7 +10,7 @@
 <body>
 	<script>
 		window.onload = function () {
-			const urlParams = window.location.search
+			const urlParams =new URLSearchParams(window.location.search)
 			const product = urlParams.get('playstore')
 			if (product) {
 				console.log('hello world');
